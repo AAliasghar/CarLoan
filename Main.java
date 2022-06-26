@@ -16,5 +16,6 @@ public class Main {
         System.out.println("Remaining2 = " +remaining2 );
         double monthlyPayment2 = loan2.remainingBalanceMonthly();
         System.out.println("Monthly Payment "+monthlyPayment2);
+
     }
 }
