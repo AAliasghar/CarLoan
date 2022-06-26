@@ -40,6 +40,7 @@ public class CarrLoan {
                 return remainingBalance;
             }
         }
+        //Remaining Balance Monthly Payment
     public double remainingBalanceMonthly(){
         double monthlyPayment;
         double remaining = remainingBalance();
