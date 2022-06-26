@@ -16,6 +16,11 @@ public class Main {
         System.out.println("Remaining2 = " +remaining2 );
         double monthlyPayment2 = loan2.remainingBalanceMonthly();
         System.out.println("Monthly Payment "+monthlyPayment2);
-
+        CarrLoan loan3 = new CarrLoan(4500,0,0,900);
+        loan3.rateCheck();
+        int remaining3 = loan3.remainingBalance();
+        System.out.println("Remaining3 = " +remaining3 );
+        double monthlyPayment3 = loan3.remainingBalanceMonthly();
+        System.out.println("Monthly Payment "+monthlyPayment3);
     }
 }
