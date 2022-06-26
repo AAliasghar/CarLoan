@@ -17,6 +17,7 @@ public class CarrLoan {
                 return true;
             }
         }
+        //DownPayment
         public boolean downPaymentCheck(){
             if(this.downPayment > this.carLoan){
                 return true;
@@ -27,6 +28,7 @@ public class CarrLoan {
                 return false;
             }
         }
+        //Remaining Balance
         public int remainingBalance(){
             boolean checkRate = rateCheck();
             boolean paymentCheckDown = downPaymentCheck();
